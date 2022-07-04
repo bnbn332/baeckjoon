@@ -11,7 +11,6 @@ see = set()
 for _ in range(m):
     see.add(stdin.readline().strip())
 
-print(listen)
 answer = sorted(list(listen & see))
 
 print(len(answer))
