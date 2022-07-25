@@ -1,5 +1,8 @@
 # 주유소
 
+import sys
+input = sys.stdin.readline
+
 # 도시의 개수 N
 n = int(input())
 
